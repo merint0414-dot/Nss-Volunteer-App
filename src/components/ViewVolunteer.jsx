@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import NavigationBar from './NavigationBar'
 
 const ViewVolunteer = () => {
   const [data, changeData] = useState([])
@@ -23,7 +24,7 @@ const ViewVolunteer = () => {
     return (
 
         <div>
-
+            <NavigationBar/>
             <div className="container mt-4">
 
                 <div className="card shadow">
